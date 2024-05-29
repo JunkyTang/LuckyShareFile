@@ -1,0 +1,6 @@
+framework module LuckyShareFile {
+  umbrella header "LuckyShareFile-umbrella.h"
+
+  export *
+  module * { export * }
+}

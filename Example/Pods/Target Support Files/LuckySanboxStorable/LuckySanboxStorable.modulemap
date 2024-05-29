@@ -1,0 +1,6 @@
+framework module LuckySanboxStorable {
+  umbrella header "LuckySanboxStorable-umbrella.h"
+
+  export *
+  module * { export * }
+}

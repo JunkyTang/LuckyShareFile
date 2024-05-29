@@ -1,0 +1,1385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		067B791B12D943F30B6970A85EF71C1E /* ExceptionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DA88AAEB0E85A62B7C9F4EAAAB0F58 /* ExceptionHandler.swift */; };
+		0842558C005806EE2B6ADE3AB3B59478 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0A330336F91CC921AC9C638A0690F5F5 /* UserDefaultsStorable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0EEC16A3E8BC00F2A02D5450A57D23 /* UserDefaultsStorable.swift */; };
+		0E24EB1546F70D259204909FF7B09E20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		198A71D247AC92D761A8A2AB7C953A1D /* LuckySanboxStorable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B504BB5CFA4DA6AB21D19CB14EC64E4 /* LuckySanboxStorable-dummy.m */; };
+		206891CA758A6B09119D376575484A57 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F5618EA52987C7D946A5BE13FA5913 /* Config.swift */; };
+		260F827DAAAAB74A738811E468AEA1B9 /* LuckyException-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56D8E0703B67CF712FAA1058FE3E7C98 /* LuckyException-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CC659F1BEA37063986DFEB21A580A25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		41680709F78FEF8EBD3B3F70C6AAE21E /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAD2E96E7CA80E2E68A3328C09FE679 /* Tool.swift */; };
+		56D2BB4FB78EA931A897D282BD6640D0 /* LuckySanboxStorable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A85FE3AC698C19F066156DB069020BAC /* LuckySanboxStorable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67D25E0DF902E9202A47A31F8A9F3471 /* SanboxStorable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46350C164EED5775125E561251524596 /* SanboxStorable.swift */; };
+		76A5BD0871EA061E2FD50B654BDAA3E3 /* Exception.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1B6937C4BAA87520EFD38D24535518 /* Exception.swift */; };
+		76AEC15071AF3F2936675E33E093506A /* Pods-LuckyShareFile_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B5CD26D029294B51086F98889588E7 /* Pods-LuckyShareFile_Tests-dummy.m */; };
+		7FC358802376E6D531D61CFDCDFBD0D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		925AE2407E5763E86563A7AC11E5F624 /* Pods-LuckyShareFile_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F018A8CA61203EC7D40AD7D731841EC /* Pods-LuckyShareFile_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C96CCAE2353A8CE7156962C9D5E57C1 /* Pods-LuckyShareFile_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 928DD0663A89984CB52F3CD8F8A193BA /* Pods-LuckyShareFile_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A07F712FAED0F4F3FDA5B53B3AAFAA2F /* LuckyException-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC960136F82D43212334AD1340F7BA1 /* LuckyException-dummy.m */; };
+		A4E3B7028647883FEB89CC5F44F991A9 /* LuckyShareFile-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5041B8E0D748B86D2756B8A6F7139A /* LuckyShareFile-dummy.m */; };
+		A5C72F0494BE4350DF05FA1D96D98342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B075C7425EB3A7F219FC59FA084DFF87 /* LuckyShareFile-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA6BA8CDB3661C593659081048062EFC /* LuckyShareFile-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9E93BDA77DC4869AAF80487AD1BB07C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DB39DF1A2A2CE269CE03421ACCCC5148 /* FileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B4BECA0509CC105F1E637D6E838F83 /* FileInfo.swift */; };
+		DC6F274B2E13C61D6F88EFEA0EC4E740 /* Pods-LuckyShareFile_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED0BE10F3BCAA425BB610A49F951BF2 /* Pods-LuckyShareFile_Example-dummy.m */; };
+		E5EC8408D0DA6121C510DD8BAFE95E28 /* SanboxFileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC495EF124C8DCDCB44F57D417C28D4 /* SanboxFileModel.swift */; };
+		F8ECE690F84DC9639A1C0B8EBC9A9681 /* LuckyUserDefaultsStorable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DF1D0A1247D4E1CDC155B60DB4CFCE3 /* LuckyUserDefaultsStorable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF134D1486B2D96F3CF722D4F8A39B26 /* LuckyUserDefaultsStorable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B942C5AC1F8222D32F405B5B07CF3E /* LuckyUserDefaultsStorable-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AE34D88218E14AD4C6D7B3FD1A18495 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53B0194AB686C6DF63C1CB3C2394E465;
+			remoteInfo = LuckyException;
+		};
+		1C903BD20E3324F4A4E063D413B7C478 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53B0194AB686C6DF63C1CB3C2394E465;
+			remoteInfo = LuckyException;
+		};
+		514AEF5237D420EAA63C9E878F810A29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 755D21713CB2FAD4D58ECF57DDF26944;
+			remoteInfo = "Pods-LuckyShareFile_Example";
+		};
+		625B9CEB7CCEF61F5798965BAAE13E9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D2A80E133F475935680D91DFFC14B95;
+			remoteInfo = LuckyShareFile;
+		};
+		9B8648F663A958362D2587ACAE90CD72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25EE097F67F96AFE16A048F5A1728759;
+			remoteInfo = LuckySanboxStorable;
+		};
+		BF0D127732E7DDF6E8EFACDD3940A801 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25EE097F67F96AFE16A048F5A1728759;
+			remoteInfo = LuckySanboxStorable;
+		};
+		ECC623EC7B1ED8DB802965F5A90B2F06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CD317DF4678B9C5904F1F2254392D06;
+			remoteInfo = LuckyUserDefaultsStorable;
+		};
+		F5B75F4FFF4A166D15EBA595A2CAAFE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CD317DF4678B9C5904F1F2254392D06;
+			remoteInfo = LuckyUserDefaultsStorable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03A8EF9BB0C80E6C3AE22BD5CF0045A5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0703598AD8046BE2E6AB1DAE7A52ABD6 /* Pods-LuckyShareFile_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LuckyShareFile_Example.modulemap"; sourceTree = "<group>"; };
+		0D0DAA9A5824A94539B6BA626084BE65 /* Pods-LuckyShareFile_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuckyShareFile_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0D0DECD98A0560E3B70E8BB2890B0847 /* LuckySanboxStorable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LuckySanboxStorable-prefix.pch"; sourceTree = "<group>"; };
+		0DF1D0A1247D4E1CDC155B60DB4CFCE3 /* LuckyUserDefaultsStorable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LuckyUserDefaultsStorable-umbrella.h"; sourceTree = "<group>"; };
+		0ED0BE10F3BCAA425BB610A49F951BF2 /* Pods-LuckyShareFile_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LuckyShareFile_Example-dummy.m"; sourceTree = "<group>"; };
+		0F018A8CA61203EC7D40AD7D731841EC /* Pods-LuckyShareFile_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LuckyShareFile_Example-umbrella.h"; sourceTree = "<group>"; };
+		152EEBB2D07E01C413743AFF490D321E /* Pods-LuckyShareFile_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LuckyShareFile_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1912654F6688BFE3FAB70EDE6A253FD5 /* LuckyShareFile.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LuckyShareFile.modulemap; sourceTree = "<group>"; };
+		1CDDA39C274B3369670C04A6090DE08A /* Pods-LuckyShareFile_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuckyShareFile_Tests-Info.plist"; sourceTree = "<group>"; };
+		20F5618EA52987C7D946A5BE13FA5913 /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Config.swift; path = LuckyShareFile/Classes/Config.swift; sourceTree = "<group>"; };
+		20F8BC380A309886BC93FE6DC72475DA /* Pods-LuckyShareFile_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LuckyShareFile_Tests.modulemap"; sourceTree = "<group>"; };
+		288C36D244E28669CBCA576B2B3FC37D /* LuckySanboxStorable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LuckySanboxStorable.release.xcconfig; sourceTree = "<group>"; };
+		2E3C143D89401D1FE0B71E91735FA0B4 /* LuckyException */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LuckyException; path = LuckyException.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34019D51369F9DEF89B7AFF4AC2D8A2F /* Pods-LuckyShareFile_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckyShareFile_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		38DA88AAEB0E85A62B7C9F4EAAAB0F58 /* ExceptionHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExceptionHandler.swift; path = LuckyException/Classes/ExceptionHandler.swift; sourceTree = "<group>"; };
+		4203DDB2108EFFDCB6A97E3CF36855F9 /* LuckyShareFile-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LuckyShareFile-prefix.pch"; sourceTree = "<group>"; };
+		4615B8240A2763E97C89816A04046531 /* LuckyException.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LuckyException.modulemap; sourceTree = "<group>"; };
+		46350C164EED5775125E561251524596 /* SanboxStorable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SanboxStorable.swift; path = LuckySanboxStorable/Classes/SanboxStorable.swift; sourceTree = "<group>"; };
+		47AF6D2A826E690F8B8D1A58F49CB229 /* Pods-LuckyShareFile_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LuckyShareFile_Tests"; path = Pods_LuckyShareFile_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B1B6937C4BAA87520EFD38D24535518 /* Exception.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Exception.swift; path = LuckyException/Classes/Exception.swift; sourceTree = "<group>"; };
+		4D5041B8E0D748B86D2756B8A6F7139A /* LuckyShareFile-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LuckyShareFile-dummy.m"; sourceTree = "<group>"; };
+		53E089B9CA95A0CA3A2D9D12A2690A4E /* LuckyUserDefaultsStorable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LuckyUserDefaultsStorable-Info.plist"; sourceTree = "<group>"; };
+		56D8E0703B67CF712FAA1058FE3E7C98 /* LuckyException-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LuckyException-umbrella.h"; sourceTree = "<group>"; };
+		59B61BF37475EE7A374A34A2D75AB8C8 /* LuckyShareFile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LuckyShareFile.debug.xcconfig; sourceTree = "<group>"; };
+		5B2EC843D15A66C8F39CBF66C26BEDB4 /* LuckyException.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LuckyException.debug.xcconfig; sourceTree = "<group>"; };
+		5BAAA4561F6CF879FD8022A043342E27 /* LuckyUserDefaultsStorable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LuckyUserDefaultsStorable.debug.xcconfig; sourceTree = "<group>"; };
+		5F84DD6E1A811C96CDE5181DA94EB230 /* Pods-LuckyShareFile_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LuckyShareFile_Example"; path = Pods_LuckyShareFile_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		682D4E8CC92BF89644678F3905FF2417 /* LuckyUserDefaultsStorable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LuckyUserDefaultsStorable.release.xcconfig; sourceTree = "<group>"; };
+		6B504BB5CFA4DA6AB21D19CB14EC64E4 /* LuckySanboxStorable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LuckySanboxStorable-dummy.m"; sourceTree = "<group>"; };
+		6F7A05762C13DC5BA3A889A437107B4F /* Pods-LuckyShareFile_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuckyShareFile_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7942D3A921B4F8F22AC70CE9B3260B10 /* LuckyException.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LuckyException.release.xcconfig; sourceTree = "<group>"; };
+		7B083FADEEDC3FC6672419B489B1659B /* LuckySanboxStorable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LuckySanboxStorable.modulemap; sourceTree = "<group>"; };
+		7EAD2E96E7CA80E2E68A3328C09FE679 /* Tool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tool.swift; path = LuckyShareFile/Classes/Tool.swift; sourceTree = "<group>"; };
+		928DD0663A89984CB52F3CD8F8A193BA /* Pods-LuckyShareFile_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LuckyShareFile_Tests-umbrella.h"; sourceTree = "<group>"; };
+		93B942C5AC1F8222D32F405B5B07CF3E /* LuckyUserDefaultsStorable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LuckyUserDefaultsStorable-dummy.m"; sourceTree = "<group>"; };
+		9643B831FA139F9B91ADDFEC079FE6B7 /* LuckyException-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LuckyException-prefix.pch"; sourceTree = "<group>"; };
+		97E09E7DBA7D5DADF686926F6FA20971 /* LuckySanboxStorable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LuckySanboxStorable-Info.plist"; sourceTree = "<group>"; };
+		992AFCB58A020BCFC84DDF78901F1B5E /* Pods-LuckyShareFile_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuckyShareFile_Example-Info.plist"; sourceTree = "<group>"; };
+		9CFA1126CFE12546D818FBAC611B631F /* Pods-LuckyShareFile_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LuckyShareFile_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A00F6D91D5DECF85A2DAF3BBB0237302 /* Pods-LuckyShareFile_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckyShareFile_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A0B4BECA0509CC105F1E637D6E838F83 /* FileInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileInfo.swift; path = LuckyShareFile/Classes/FileInfo.swift; sourceTree = "<group>"; };
+		A85FE3AC698C19F066156DB069020BAC /* LuckySanboxStorable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LuckySanboxStorable-umbrella.h"; sourceTree = "<group>"; };
+		AAC495EF124C8DCDCB44F57D417C28D4 /* SanboxFileModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SanboxFileModel.swift; path = LuckySanboxStorable/Classes/SanboxFileModel.swift; sourceTree = "<group>"; };
+		ABB219FB9527F92F8E64586B5F55E556 /* Pods-LuckyShareFile_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LuckyShareFile_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AD0EEC16A3E8BC00F2A02D5450A57D23 /* UserDefaultsStorable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserDefaultsStorable.swift; path = LuckyUserDefaultsStorable/Classes/UserDefaultsStorable.swift; sourceTree = "<group>"; };
+		BB5DE7D3F2D44F2E148EE7B4B38C5CEE /* LuckyShareFile.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LuckyShareFile.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BDC960136F82D43212334AD1340F7BA1 /* LuckyException-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LuckyException-dummy.m"; sourceTree = "<group>"; };
+		BE7C817117B60DC1F50A425B657AF847 /* LuckyException-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LuckyException-Info.plist"; sourceTree = "<group>"; };
+		C6705574BBCE752AC419E34E5B1A1FBD /* LuckyUserDefaultsStorable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LuckyUserDefaultsStorable-prefix.pch"; sourceTree = "<group>"; };
+		D2F1CE90B98C1D0B1AA44177B1BEF92D /* Pods-LuckyShareFile_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckyShareFile_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D7547DF85AB5ABFAA82BDD4E9DE2AC7A /* LuckyShareFile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LuckyShareFile.release.xcconfig; sourceTree = "<group>"; };
+		D79F2D13CE5C7F868F96C09E55226849 /* LuckySanboxStorable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LuckySanboxStorable.debug.xcconfig; sourceTree = "<group>"; };
+		D8215FD37E801390424D424871C5DD38 /* LuckyUserDefaultsStorable */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LuckyUserDefaultsStorable; path = LuckyUserDefaultsStorable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3045D623D1F29F247C3D229EA292D8 /* LuckyUserDefaultsStorable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LuckyUserDefaultsStorable.modulemap; sourceTree = "<group>"; };
+		DFBB28F91A454F77DA145AA639837DF9 /* LuckyShareFile-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LuckyShareFile-Info.plist"; sourceTree = "<group>"; };
+		E649A6645AC89B3C2E28A877DE9D1142 /* LuckySanboxStorable */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LuckySanboxStorable; path = LuckySanboxStorable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA902F00A1B07E888D7C6B0E085B3AE5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F20C12ADB38108F1CFC8539AFA6D9759 /* LuckyShareFile */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LuckyShareFile; path = LuckyShareFile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B5CD26D029294B51086F98889588E7 /* Pods-LuckyShareFile_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LuckyShareFile_Tests-dummy.m"; sourceTree = "<group>"; };
+		FA6BA8CDB3661C593659081048062EFC /* LuckyShareFile-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LuckyShareFile-umbrella.h"; sourceTree = "<group>"; };
+		FC4D9EADF95FFEB890B9FD65AA9E059F /* Pods-LuckyShareFile_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuckyShareFile_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		467A0C86D28164A8C77CC4ACCD450C72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FC358802376E6D531D61CFDCDFBD0D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55FEC90B3239959B69DB7E723F5F5485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC659F1BEA37063986DFEB21A580A25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AC162DF1BC74D31C7D2DFCF06A0D641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E24EB1546F70D259204909FF7B09E20 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C92D283CCDF2D7B9E851BBDB847A957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E93BDA77DC4869AAF80487AD1BB07C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1E1ACC8B32F7910A3EE346BCA88A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0842558C005806EE2B6ADE3AB3B59478 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D59487733EFFA568A4CFAC4C5F9C9F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C72F0494BE4350DF05FA1D96D98342 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F449B8320B50F92C1CD18ADF83FB787 /* LuckySanboxStorable */ = {
+			isa = PBXGroup;
+			children = (
+				AAC495EF124C8DCDCB44F57D417C28D4 /* SanboxFileModel.swift */,
+				46350C164EED5775125E561251524596 /* SanboxStorable.swift */,
+				D22C6DECAEBD30267E549CAD9919FBC1 /* Support Files */,
+			);
+			name = LuckySanboxStorable;
+			path = LuckySanboxStorable;
+			sourceTree = "<group>";
+		};
+		2363D4160C6167202508EE9D6B2B4E8D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4615B8240A2763E97C89816A04046531 /* LuckyException.modulemap */,
+				BDC960136F82D43212334AD1340F7BA1 /* LuckyException-dummy.m */,
+				BE7C817117B60DC1F50A425B657AF847 /* LuckyException-Info.plist */,
+				9643B831FA139F9B91ADDFEC079FE6B7 /* LuckyException-prefix.pch */,
+				56D8E0703B67CF712FAA1058FE3E7C98 /* LuckyException-umbrella.h */,
+				5B2EC843D15A66C8F39CBF66C26BEDB4 /* LuckyException.debug.xcconfig */,
+				7942D3A921B4F8F22AC70CE9B3260B10 /* LuckyException.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LuckyException";
+			sourceTree = "<group>";
+		};
+		266FEE0EEE01FA59E03708D43867FEE1 /* LuckyException */ = {
+			isa = PBXGroup;
+			children = (
+				4B1B6937C4BAA87520EFD38D24535518 /* Exception.swift */,
+				38DA88AAEB0E85A62B7C9F4EAAAB0F58 /* ExceptionHandler.swift */,
+				2363D4160C6167202508EE9D6B2B4E8D /* Support Files */,
+			);
+			name = LuckyException;
+			path = LuckyException;
+			sourceTree = "<group>";
+		};
+		302E4904E70FD0483469B80437F42D9C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F5AD4007725A286596B8B9AB7A95E04 /* Pods-LuckyShareFile_Example */,
+				5A210AA5283B81C3EFF72B8ACC598CF1 /* Pods-LuckyShareFile_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4105D9F7D3EA7B71A91E6BF39B78B4B9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EA902F00A1B07E888D7C6B0E085B3AE5 /* LICENSE */,
+				BB5DE7D3F2D44F2E148EE7B4B38C5CEE /* LuckyShareFile.podspec */,
+				03A8EF9BB0C80E6C3AE22BD5CF0045A5 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5A210AA5283B81C3EFF72B8ACC598CF1 /* Pods-LuckyShareFile_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				20F8BC380A309886BC93FE6DC72475DA /* Pods-LuckyShareFile_Tests.modulemap */,
+				ABB219FB9527F92F8E64586B5F55E556 /* Pods-LuckyShareFile_Tests-acknowledgements.markdown */,
+				6F7A05762C13DC5BA3A889A437107B4F /* Pods-LuckyShareFile_Tests-acknowledgements.plist */,
+				F5B5CD26D029294B51086F98889588E7 /* Pods-LuckyShareFile_Tests-dummy.m */,
+				1CDDA39C274B3369670C04A6090DE08A /* Pods-LuckyShareFile_Tests-Info.plist */,
+				928DD0663A89984CB52F3CD8F8A193BA /* Pods-LuckyShareFile_Tests-umbrella.h */,
+				D2F1CE90B98C1D0B1AA44177B1BEF92D /* Pods-LuckyShareFile_Tests.debug.xcconfig */,
+				34019D51369F9DEF89B7AFF4AC2D8A2F /* Pods-LuckyShareFile_Tests.release.xcconfig */,
+			);
+			name = "Pods-LuckyShareFile_Tests";
+			path = "Target Support Files/Pods-LuckyShareFile_Tests";
+			sourceTree = "<group>";
+		};
+		6F5AD4007725A286596B8B9AB7A95E04 /* Pods-LuckyShareFile_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0703598AD8046BE2E6AB1DAE7A52ABD6 /* Pods-LuckyShareFile_Example.modulemap */,
+				152EEBB2D07E01C413743AFF490D321E /* Pods-LuckyShareFile_Example-acknowledgements.markdown */,
+				0D0DAA9A5824A94539B6BA626084BE65 /* Pods-LuckyShareFile_Example-acknowledgements.plist */,
+				0ED0BE10F3BCAA425BB610A49F951BF2 /* Pods-LuckyShareFile_Example-dummy.m */,
+				9CFA1126CFE12546D818FBAC611B631F /* Pods-LuckyShareFile_Example-frameworks.sh */,
+				992AFCB58A020BCFC84DDF78901F1B5E /* Pods-LuckyShareFile_Example-Info.plist */,
+				0F018A8CA61203EC7D40AD7D731841EC /* Pods-LuckyShareFile_Example-umbrella.h */,
+				A00F6D91D5DECF85A2DAF3BBB0237302 /* Pods-LuckyShareFile_Example.debug.xcconfig */,
+				FC4D9EADF95FFEB890B9FD65AA9E059F /* Pods-LuckyShareFile_Example.release.xcconfig */,
+			);
+			name = "Pods-LuckyShareFile_Example";
+			path = "Target Support Files/Pods-LuckyShareFile_Example";
+			sourceTree = "<group>";
+		};
+		8EF592C08AAEF5699A2DBA08F5A2FD5E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1912654F6688BFE3FAB70EDE6A253FD5 /* LuckyShareFile.modulemap */,
+				4D5041B8E0D748B86D2756B8A6F7139A /* LuckyShareFile-dummy.m */,
+				DFBB28F91A454F77DA145AA639837DF9 /* LuckyShareFile-Info.plist */,
+				4203DDB2108EFFDCB6A97E3CF36855F9 /* LuckyShareFile-prefix.pch */,
+				FA6BA8CDB3661C593659081048062EFC /* LuckyShareFile-umbrella.h */,
+				59B61BF37475EE7A374A34A2D75AB8C8 /* LuckyShareFile.debug.xcconfig */,
+				D7547DF85AB5ABFAA82BDD4E9DE2AC7A /* LuckyShareFile.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LuckyShareFile";
+			sourceTree = "<group>";
+		};
+		918A366B1FE9920B6B4BBE91566F84E0 /* LuckyUserDefaultsStorable */ = {
+			isa = PBXGroup;
+			children = (
+				AD0EEC16A3E8BC00F2A02D5450A57D23 /* UserDefaultsStorable.swift */,
+				F6A6AEF40542EEBA1FE0CA4267EB33E2 /* Support Files */,
+			);
+			name = LuckyUserDefaultsStorable;
+			path = LuckyUserDefaultsStorable;
+			sourceTree = "<group>";
+		};
+		98C9F16D978D83BB1198C10538FBD6CF /* LuckyShareFile */ = {
+			isa = PBXGroup;
+			children = (
+				20F5618EA52987C7D946A5BE13FA5913 /* Config.swift */,
+				A0B4BECA0509CC105F1E637D6E838F83 /* FileInfo.swift */,
+				7EAD2E96E7CA80E2E68A3328C09FE679 /* Tool.swift */,
+				4105D9F7D3EA7B71A91E6BF39B78B4B9 /* Pod */,
+				8EF592C08AAEF5699A2DBA08F5A2FD5E /* Support Files */,
+			);
+			name = LuckyShareFile;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C9E90C112D899B6B8AB129681E210FCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				266FEE0EEE01FA59E03708D43867FEE1 /* LuckyException */,
+				1F449B8320B50F92C1CD18ADF83FB787 /* LuckySanboxStorable */,
+				918A366B1FE9920B6B4BBE91566F84E0 /* LuckyUserDefaultsStorable */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D296FBFCBDEEDEA0E4A62325D91F3A7C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C9E90C112D899B6B8AB129681E210FCB /* Pods */,
+				DBB7CBF2E4BE5E24CFA9445ABE2DE1CF /* Products */,
+				302E4904E70FD0483469B80437F42D9C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D22C6DECAEBD30267E549CAD9919FBC1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B083FADEEDC3FC6672419B489B1659B /* LuckySanboxStorable.modulemap */,
+				6B504BB5CFA4DA6AB21D19CB14EC64E4 /* LuckySanboxStorable-dummy.m */,
+				97E09E7DBA7D5DADF686926F6FA20971 /* LuckySanboxStorable-Info.plist */,
+				0D0DECD98A0560E3B70E8BB2890B0847 /* LuckySanboxStorable-prefix.pch */,
+				A85FE3AC698C19F066156DB069020BAC /* LuckySanboxStorable-umbrella.h */,
+				D79F2D13CE5C7F868F96C09E55226849 /* LuckySanboxStorable.debug.xcconfig */,
+				288C36D244E28669CBCA576B2B3FC37D /* LuckySanboxStorable.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LuckySanboxStorable";
+			sourceTree = "<group>";
+		};
+		D296FBFCBDEEDEA0E4A62325D91F3A7C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98C9F16D978D83BB1198C10538FBD6CF /* LuckyShareFile */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DBB7CBF2E4BE5E24CFA9445ABE2DE1CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E3C143D89401D1FE0B71E91735FA0B4 /* LuckyException */,
+				E649A6645AC89B3C2E28A877DE9D1142 /* LuckySanboxStorable */,
+				F20C12ADB38108F1CFC8539AFA6D9759 /* LuckyShareFile */,
+				D8215FD37E801390424D424871C5DD38 /* LuckyUserDefaultsStorable */,
+				5F84DD6E1A811C96CDE5181DA94EB230 /* Pods-LuckyShareFile_Example */,
+				47AF6D2A826E690F8B8D1A58F49CB229 /* Pods-LuckyShareFile_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6A6AEF40542EEBA1FE0CA4267EB33E2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA3045D623D1F29F247C3D229EA292D8 /* LuckyUserDefaultsStorable.modulemap */,
+				93B942C5AC1F8222D32F405B5B07CF3E /* LuckyUserDefaultsStorable-dummy.m */,
+				53E089B9CA95A0CA3A2D9D12A2690A4E /* LuckyUserDefaultsStorable-Info.plist */,
+				C6705574BBCE752AC419E34E5B1A1FBD /* LuckyUserDefaultsStorable-prefix.pch */,
+				0DF1D0A1247D4E1CDC155B60DB4CFCE3 /* LuckyUserDefaultsStorable-umbrella.h */,
+				5BAAA4561F6CF879FD8022A043342E27 /* LuckyUserDefaultsStorable.debug.xcconfig */,
+				682D4E8CC92BF89644678F3905FF2417 /* LuckyUserDefaultsStorable.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LuckyUserDefaultsStorable";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		16BF0D8B191C0F3086AE40AD6496EA18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D2BB4FB78EA931A897D282BD6640D0 /* LuckySanboxStorable-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1946AE97271F8E28BB913194E0085B2A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8ECE690F84DC9639A1C0B8EBC9A9681 /* LuckyUserDefaultsStorable-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D305C0D5C7E54D8087304930A731054 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				260F827DAAAAB74A738811E468AEA1B9 /* LuckyException-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893016A82118390DF47EB21BC852FD47 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B075C7425EB3A7F219FC59FA084DFF87 /* LuckyShareFile-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B434786C1E6244418CBFD6C0E629BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C96CCAE2353A8CE7156962C9D5E57C1 /* Pods-LuckyShareFile_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7AB31ACE880694EA800B4D4227E2EAC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925AE2407E5763E86563A7AC11E5F624 /* Pods-LuckyShareFile_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		25EE097F67F96AFE16A048F5A1728759 /* LuckySanboxStorable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 685470A4B72312E57FBFC9D9180D9B85 /* Build configuration list for PBXNativeTarget "LuckySanboxStorable" */;
+			buildPhases = (
+				16BF0D8B191C0F3086AE40AD6496EA18 /* Headers */,
+				712B6B95D6BDBBA879577063D643644E /* Sources */,
+				467A0C86D28164A8C77CC4ACCD450C72 /* Frameworks */,
+				2965B3A015DC58613036C6BC50200889 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4A5A75B2F212332063CE6D67186B780 /* PBXTargetDependency */,
+			);
+			name = LuckySanboxStorable;
+			productName = LuckySanboxStorable;
+			productReference = E649A6645AC89B3C2E28A877DE9D1142 /* LuckySanboxStorable */;
+			productType = "com.apple.product-type.framework";
+		};
+		2D2A80E133F475935680D91DFFC14B95 /* LuckyShareFile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D5B1F12F736F63F2AB1BB9B398DA584 /* Build configuration list for PBXNativeTarget "LuckyShareFile" */;
+			buildPhases = (
+				893016A82118390DF47EB21BC852FD47 /* Headers */,
+				F77AC2CA475FC007FA6C4CD7D01BC7D5 /* Sources */,
+				8C92D283CCDF2D7B9E851BBDB847A957 /* Frameworks */,
+				85D60475A09627781B13AF467C677E4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A94D0DA1CAF0F450D10FCEF23E719A76 /* PBXTargetDependency */,
+				5BE1D0AEBE5050994AACDAB63D2D01B4 /* PBXTargetDependency */,
+			);
+			name = LuckyShareFile;
+			productName = LuckyShareFile;
+			productReference = F20C12ADB38108F1CFC8539AFA6D9759 /* LuckyShareFile */;
+			productType = "com.apple.product-type.framework";
+		};
+		53B0194AB686C6DF63C1CB3C2394E465 /* LuckyException */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0A6EBEA252D4F3246D33463632F9373 /* Build configuration list for PBXNativeTarget "LuckyException" */;
+			buildPhases = (
+				7D305C0D5C7E54D8087304930A731054 /* Headers */,
+				D71D218085CBB32BB4E72227A9B884E3 /* Sources */,
+				55FEC90B3239959B69DB7E723F5F5485 /* Frameworks */,
+				2CD8F6DA600CFDC88F30525FC6EF1AEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuckyException;
+			productName = LuckyException;
+			productReference = 2E3C143D89401D1FE0B71E91735FA0B4 /* LuckyException */;
+			productType = "com.apple.product-type.framework";
+		};
+		755D21713CB2FAD4D58ECF57DDF26944 /* Pods-LuckyShareFile_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2254E184AAB4C85D8D601375B87F895F /* Build configuration list for PBXNativeTarget "Pods-LuckyShareFile_Example" */;
+			buildPhases = (
+				D7AB31ACE880694EA800B4D4227E2EAC /* Headers */,
+				1860983A0F7E8C02563A6E2D12846B26 /* Sources */,
+				9D59487733EFFA568A4CFAC4C5F9C9F3 /* Frameworks */,
+				6689FC3A24FB654384E05ED074C3E1A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A4BD6CFA31E5910ED5DFFE99F277F34 /* PBXTargetDependency */,
+				AD881734F26E398E2BF59846D2DF5E81 /* PBXTargetDependency */,
+				41ADC66C3177451F9212BF28D79155E9 /* PBXTargetDependency */,
+				ABB1A47E6D77FFFD015682F29F008F83 /* PBXTargetDependency */,
+			);
+			name = "Pods-LuckyShareFile_Example";
+			productName = Pods_LuckyShareFile_Example;
+			productReference = 5F84DD6E1A811C96CDE5181DA94EB230 /* Pods-LuckyShareFile_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		7CD317DF4678B9C5904F1F2254392D06 /* LuckyUserDefaultsStorable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82A1DA8C7D0A25445D96B7CEE674314F /* Build configuration list for PBXNativeTarget "LuckyUserDefaultsStorable" */;
+			buildPhases = (
+				1946AE97271F8E28BB913194E0085B2A /* Headers */,
+				0BE263F07E023E74BCA7098D07C483DC /* Sources */,
+				9B1E1ACC8B32F7910A3EE346BCA88A89 /* Frameworks */,
+				648E9B09641EF5290BAF7D5B0E0A35A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuckyUserDefaultsStorable;
+			productName = LuckyUserDefaultsStorable;
+			productReference = D8215FD37E801390424D424871C5DD38 /* LuckyUserDefaultsStorable */;
+			productType = "com.apple.product-type.framework";
+		};
+		C762AA2D9F8252A786807A3C600C113A /* Pods-LuckyShareFile_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A3763681E12F8E8BE342D0650B665FA /* Build configuration list for PBXNativeTarget "Pods-LuckyShareFile_Tests" */;
+			buildPhases = (
+				B9B434786C1E6244418CBFD6C0E629BC /* Headers */,
+				3DAB08C04376CB79AFFBB6453FA9777B /* Sources */,
+				6AC162DF1BC74D31C7D2DFCF06A0D641 /* Frameworks */,
+				CB3F803BC56D7E766E3A911504EC89A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B14A19516013CBD62B9B74EF48F629E2 /* PBXTargetDependency */,
+			);
+			name = "Pods-LuckyShareFile_Tests";
+			productName = Pods_LuckyShareFile_Tests;
+			productReference = 47AF6D2A826E690F8B8D1A58F49CB229 /* Pods-LuckyShareFile_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DBB7CBF2E4BE5E24CFA9445ABE2DE1CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53B0194AB686C6DF63C1CB3C2394E465 /* LuckyException */,
+				25EE097F67F96AFE16A048F5A1728759 /* LuckySanboxStorable */,
+				2D2A80E133F475935680D91DFFC14B95 /* LuckyShareFile */,
+				7CD317DF4678B9C5904F1F2254392D06 /* LuckyUserDefaultsStorable */,
+				755D21713CB2FAD4D58ECF57DDF26944 /* Pods-LuckyShareFile_Example */,
+				C762AA2D9F8252A786807A3C600C113A /* Pods-LuckyShareFile_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2965B3A015DC58613036C6BC50200889 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD8F6DA600CFDC88F30525FC6EF1AEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		648E9B09641EF5290BAF7D5B0E0A35A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6689FC3A24FB654384E05ED074C3E1A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85D60475A09627781B13AF467C677E4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3F803BC56D7E766E3A911504EC89A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BE263F07E023E74BCA7098D07C483DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF134D1486B2D96F3CF722D4F8A39B26 /* LuckyUserDefaultsStorable-dummy.m in Sources */,
+				0A330336F91CC921AC9C638A0690F5F5 /* UserDefaultsStorable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1860983A0F7E8C02563A6E2D12846B26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6F274B2E13C61D6F88EFEA0EC4E740 /* Pods-LuckyShareFile_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DAB08C04376CB79AFFBB6453FA9777B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76AEC15071AF3F2936675E33E093506A /* Pods-LuckyShareFile_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		712B6B95D6BDBBA879577063D643644E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198A71D247AC92D761A8A2AB7C953A1D /* LuckySanboxStorable-dummy.m in Sources */,
+				E5EC8408D0DA6121C510DD8BAFE95E28 /* SanboxFileModel.swift in Sources */,
+				67D25E0DF902E9202A47A31F8A9F3471 /* SanboxStorable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D71D218085CBB32BB4E72227A9B884E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A5BD0871EA061E2FD50B654BDAA3E3 /* Exception.swift in Sources */,
+				067B791B12D943F30B6970A85EF71C1E /* ExceptionHandler.swift in Sources */,
+				A07F712FAED0F4F3FDA5B53B3AAFAA2F /* LuckyException-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77AC2CA475FC007FA6C4CD7D01BC7D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				206891CA758A6B09119D376575484A57 /* Config.swift in Sources */,
+				DB39DF1A2A2CE269CE03421ACCCC5148 /* FileInfo.swift in Sources */,
+				A4E3B7028647883FEB89CC5F44F991A9 /* LuckyShareFile-dummy.m in Sources */,
+				41680709F78FEF8EBD3B3F70C6AAE21E /* Tool.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41ADC66C3177451F9212BF28D79155E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LuckyShareFile;
+			target = 2D2A80E133F475935680D91DFFC14B95 /* LuckyShareFile */;
+			targetProxy = 625B9CEB7CCEF61F5798965BAAE13E9F /* PBXContainerItemProxy */;
+		};
+		5BE1D0AEBE5050994AACDAB63D2D01B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LuckyUserDefaultsStorable;
+			target = 7CD317DF4678B9C5904F1F2254392D06 /* LuckyUserDefaultsStorable */;
+			targetProxy = F5B75F4FFF4A166D15EBA595A2CAAFE2 /* PBXContainerItemProxy */;
+		};
+		9A4BD6CFA31E5910ED5DFFE99F277F34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LuckyException;
+			target = 53B0194AB686C6DF63C1CB3C2394E465 /* LuckyException */;
+			targetProxy = 1C903BD20E3324F4A4E063D413B7C478 /* PBXContainerItemProxy */;
+		};
+		A94D0DA1CAF0F450D10FCEF23E719A76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LuckySanboxStorable;
+			target = 25EE097F67F96AFE16A048F5A1728759 /* LuckySanboxStorable */;
+			targetProxy = BF0D127732E7DDF6E8EFACDD3940A801 /* PBXContainerItemProxy */;
+		};
+		ABB1A47E6D77FFFD015682F29F008F83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LuckyUserDefaultsStorable;
+			target = 7CD317DF4678B9C5904F1F2254392D06 /* LuckyUserDefaultsStorable */;
+			targetProxy = ECC623EC7B1ED8DB802965F5A90B2F06 /* PBXContainerItemProxy */;
+		};
+		AD881734F26E398E2BF59846D2DF5E81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LuckySanboxStorable;
+			target = 25EE097F67F96AFE16A048F5A1728759 /* LuckySanboxStorable */;
+			targetProxy = 9B8648F663A958362D2587ACAE90CD72 /* PBXContainerItemProxy */;
+		};
+		B14A19516013CBD62B9B74EF48F629E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LuckyShareFile_Example";
+			target = 755D21713CB2FAD4D58ECF57DDF26944 /* Pods-LuckyShareFile_Example */;
+			targetProxy = 514AEF5237D420EAA63C9E878F810A29 /* PBXContainerItemProxy */;
+		};
+		C4A5A75B2F212332063CE6D67186B780 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LuckyException;
+			target = 53B0194AB686C6DF63C1CB3C2394E465 /* LuckyException */;
+			targetProxy = 1AE34D88218E14AD4C6D7B3FD1A18495 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1FC4213D12A4BBF74B8E7BDD8C6C2CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34019D51369F9DEF89B7AFF4AC2D8A2F /* Pods-LuckyShareFile_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LuckyShareFile_Tests/Pods-LuckyShareFile_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LuckyShareFile_Tests/Pods-LuckyShareFile_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		22950AFED26F87B68DC3617684E53AE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59B61BF37475EE7A374A34A2D75AB8C8 /* LuckyShareFile.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LuckyShareFile/LuckyShareFile-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LuckyShareFile/LuckyShareFile-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LuckyShareFile/LuckyShareFile.modulemap";
+				PRODUCT_MODULE_NAME = LuckyShareFile;
+				PRODUCT_NAME = LuckyShareFile;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3E35D7E74A119627DE2BBB4108FFE2CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7942D3A921B4F8F22AC70CE9B3260B10 /* LuckyException.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LuckyException/LuckyException-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LuckyException/LuckyException-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LuckyException/LuckyException.modulemap";
+				PRODUCT_MODULE_NAME = LuckyException;
+				PRODUCT_NAME = LuckyException;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		424557846A693FAF31F1C3B0C140A33B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7547DF85AB5ABFAA82BDD4E9DE2AC7A /* LuckyShareFile.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LuckyShareFile/LuckyShareFile-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LuckyShareFile/LuckyShareFile-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LuckyShareFile/LuckyShareFile.modulemap";
+				PRODUCT_MODULE_NAME = LuckyShareFile;
+				PRODUCT_NAME = LuckyShareFile;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		654C8346BDD831B1E8CF4F4B55308E84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 288C36D244E28669CBCA576B2B3FC37D /* LuckySanboxStorable.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LuckySanboxStorable/LuckySanboxStorable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LuckySanboxStorable/LuckySanboxStorable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LuckySanboxStorable/LuckySanboxStorable.modulemap";
+				PRODUCT_MODULE_NAME = LuckySanboxStorable;
+				PRODUCT_NAME = LuckySanboxStorable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		81B624408AF5CF0A512FC6912E49E3D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BAAA4561F6CF879FD8022A043342E27 /* LuckyUserDefaultsStorable.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LuckyUserDefaultsStorable/LuckyUserDefaultsStorable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LuckyUserDefaultsStorable/LuckyUserDefaultsStorable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LuckyUserDefaultsStorable/LuckyUserDefaultsStorable.modulemap";
+				PRODUCT_MODULE_NAME = LuckyUserDefaultsStorable;
+				PRODUCT_NAME = LuckyUserDefaultsStorable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		97BC589D67C5592B306C123946C6181D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2F1CE90B98C1D0B1AA44177B1BEF92D /* Pods-LuckyShareFile_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LuckyShareFile_Tests/Pods-LuckyShareFile_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LuckyShareFile_Tests/Pods-LuckyShareFile_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9F4B66359B0980617DA5C6AF7F987356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 682D4E8CC92BF89644678F3905FF2417 /* LuckyUserDefaultsStorable.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LuckyUserDefaultsStorable/LuckyUserDefaultsStorable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LuckyUserDefaultsStorable/LuckyUserDefaultsStorable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LuckyUserDefaultsStorable/LuckyUserDefaultsStorable.modulemap";
+				PRODUCT_MODULE_NAME = LuckyUserDefaultsStorable;
+				PRODUCT_NAME = LuckyUserDefaultsStorable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AE381BF00B6D230BB62FBB8A8E89D656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A00F6D91D5DECF85A2DAF3BBB0237302 /* Pods-LuckyShareFile_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LuckyShareFile_Example/Pods-LuckyShareFile_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LuckyShareFile_Example/Pods-LuckyShareFile_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C1A2A34764339A6F1F9C7595B07958E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B2EC843D15A66C8F39CBF66C26BEDB4 /* LuckyException.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LuckyException/LuckyException-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LuckyException/LuckyException-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LuckyException/LuckyException.modulemap";
+				PRODUCT_MODULE_NAME = LuckyException;
+				PRODUCT_NAME = LuckyException;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA127276B2C793148C4CFF7FE5B83E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D79F2D13CE5C7F868F96C09E55226849 /* LuckySanboxStorable.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LuckySanboxStorable/LuckySanboxStorable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LuckySanboxStorable/LuckySanboxStorable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LuckySanboxStorable/LuckySanboxStorable.modulemap";
+				PRODUCT_MODULE_NAME = LuckySanboxStorable;
+				PRODUCT_NAME = LuckySanboxStorable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F90F4DF625AF068AF6BFBE8C8612E04E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC4D9EADF95FFEB890B9FD65AA9E059F /* Pods-LuckyShareFile_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LuckyShareFile_Example/Pods-LuckyShareFile_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LuckyShareFile_Example/Pods-LuckyShareFile_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2254E184AAB4C85D8D601375B87F895F /* Build configuration list for PBXNativeTarget "Pods-LuckyShareFile_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE381BF00B6D230BB62FBB8A8E89D656 /* Debug */,
+				F90F4DF625AF068AF6BFBE8C8612E04E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		685470A4B72312E57FBFC9D9180D9B85 /* Build configuration list for PBXNativeTarget "LuckySanboxStorable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA127276B2C793148C4CFF7FE5B83E64 /* Debug */,
+				654C8346BDD831B1E8CF4F4B55308E84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82A1DA8C7D0A25445D96B7CEE674314F /* Build configuration list for PBXNativeTarget "LuckyUserDefaultsStorable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B624408AF5CF0A512FC6912E49E3D2 /* Debug */,
+				9F4B66359B0980617DA5C6AF7F987356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A3763681E12F8E8BE342D0650B665FA /* Build configuration list for PBXNativeTarget "Pods-LuckyShareFile_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97BC589D67C5592B306C123946C6181D /* Debug */,
+				1FC4213D12A4BBF74B8E7BDD8C6C2CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D5B1F12F736F63F2AB1BB9B398DA584 /* Build configuration list for PBXNativeTarget "LuckyShareFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22950AFED26F87B68DC3617684E53AE0 /* Debug */,
+				424557846A693FAF31F1C3B0C140A33B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0A6EBEA252D4F3246D33463632F9373 /* Build configuration list for PBXNativeTarget "LuckyException" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1A2A34764339A6F1F9C7595B07958E6 /* Debug */,
+				3E35D7E74A119627DE2BBB4108FFE2CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

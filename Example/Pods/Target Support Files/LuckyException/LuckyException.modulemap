@@ -1,0 +1,6 @@
+framework module LuckyException {
+  umbrella header "LuckyException-umbrella.h"
+
+  export *
+  module * { export * }
+}

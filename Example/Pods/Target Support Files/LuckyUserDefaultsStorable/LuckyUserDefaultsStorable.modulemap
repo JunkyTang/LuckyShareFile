@@ -1,0 +1,6 @@
+framework module LuckyUserDefaultsStorable {
+  umbrella header "LuckyUserDefaultsStorable-umbrella.h"
+
+  export *
+  module * { export * }
+}
