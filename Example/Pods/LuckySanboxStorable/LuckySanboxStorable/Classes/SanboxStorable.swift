@@ -11,18 +11,23 @@ import LuckyException
 public protocol SanboxStorable {}
 public extension SanboxStorable {
     
+
+    func sanboxUrl(directory: URL, folder: String, name: String) throws -> URL {
+        var url = directory.appendingPathComponent(folder, isDirectory: true)
+        try FileManager.default.createDirectory(at: url, withIntermediateDirectories: true)
+        
+        url = url.appendingPathComponent(name, isDirectory: false)
+        return url
+    }
+    
     func storeInSanbox(originPath: URL, directory: URL, folder: String, name: String? = nil) throws -> String {
         
         
         if originPath.startAccessingSecurityScopedResource() {
             defer { originPath.stopAccessingSecurityScopedResource() }
             
-            
-            var url = directory.appendingPathComponent(folder, isDirectory: true)
-            try FileManager.default.createDirectory(at: url, withIntermediateDirectories: true)
-            
             let fileName = name ?? UUID().uuidString
-            url = url.appendingPathComponent(fileName, isDirectory: false)
+            let url = try sanboxUrl(directory: directory, folder: folder, name: fileName)
             
             if FileManager.default.fileExists(atPath: url.path) {
                 try FileManager.default.removeItem(at: url)
@@ -38,9 +43,7 @@ public extension SanboxStorable {
     
     func dataInSanbox(directory: URL, folder: String, name: String) throws -> Data {
         
-        var url = directory
-        url = url.appendingPathComponent(folder, isDirectory: true)
-        url = url.appendingPathComponent(name, isDirectory: false)
+        let url = try sanboxUrl(directory: directory, folder: folder, name: name)
         let data = try Data(contentsOf: url)
         return data
     }

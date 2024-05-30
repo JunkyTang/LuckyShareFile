@@ -22,20 +22,26 @@ public protocol SanboxFileModel: SanboxStorable {
 
 public extension SanboxFileModel {
     
+    
+    /// default document
     var sanboxDirectory: URL {
         return FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
     }
     
+    
+    /// default ‘file’
     var folderName: String {
         return "file"
     }
     
     
+    /// save file to sanbox
     mutating func saveToSanbox() throws {
         let name = try storeInSanbox(originPath: originFileUrl, directory: sanboxDirectory, folder: folderName, name: sanboxFileName)
         sanboxFileName = name
     }
     
+    /// read file from sanbox
     func dataInSanbox() throws -> Data {
         guard let sanboxFileName = sanboxFileName else {
             throw Exception(msg: "Unavailable sanbox file name")

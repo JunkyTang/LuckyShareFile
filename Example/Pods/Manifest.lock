@@ -1,9 +1,9 @@
 PODS:
   - LuckyException (1.0.1)
-  - LuckySanboxStorable (1.0.0):
+  - LuckySanboxStorable (1.1.0):
     - LuckyException (~> 1.0)
-  - LuckyShareFile (1.0.0):
-    - LuckySanboxStorable (~> 1.0)
+  - LuckyShareFile (0.5.0):
+    - LuckySanboxStorable (~> 1.1)
     - LuckyUserDefaultsStorable (~> 1.0)
   - LuckyUserDefaultsStorable (1.0.0)
 
@@ -22,8 +22,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   LuckyException: 14fed2cefc505cd147fafb00bb59de8c25873b9f
-  LuckySanboxStorable: 02f1d06e9f21f50066b1af2ba2a833532d888fba
-  LuckyShareFile: 4e7cb11e35d7b4371ad244c5ee9bea310ba04373
+  LuckySanboxStorable: 12e8ac63e6d81b738f8e1de6e833eb3176e01e0f
+  LuckyShareFile: c0a15b767d4f326e56ca32a95c3a7c4afcb0e393
   LuckyUserDefaultsStorable: adc81ee3f6595b8f875c06309a1bf30eb2186b5f
 
 PODFILE CHECKSUM: 514027f5c82caf661745e854ce27dbeff77165af
