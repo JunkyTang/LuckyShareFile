@@ -67,9 +67,9 @@ public class FileInfo: SanboxFileModel, Codable {
     public var type: FileType
     
     
-    public init(originFileUrl: URL, sanboxFileName: String? = nil, type: FileType? = nil) {
+    public init(originFileUrl: URL, type: FileType? = nil) {
         self.originFileUrl = originFileUrl
-        self.sanboxFileName = sanboxFileName
+        self.sanboxFileName = UUID().uuidString + "." + originFileUrl.pathExtension
         let ext = originFileUrl.pathExtension
         self.type = type ?? FileType.from(urlExtension: ext)
     }
