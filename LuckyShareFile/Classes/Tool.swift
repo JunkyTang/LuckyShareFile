@@ -21,8 +21,13 @@ public struct Tool {
             else { continue }
             for (j, provider) in attachments.enumerated() {
                 
-                _ = provider.loadObject(ofClass: URL.self) { reading, error in
-                    if let url = reading {
+                var identifier: String = "public.url"
+                if #available(iOS 14.0, *) {
+                    identifier = UTType.fileURL.identifier
+                }
+                
+                provider.loadItem(forTypeIdentifier: identifier) { item, error in
+                    if let url = item as? URL {
                         target.append(url)
                     }
                     if i == extensionContext.inputItems.count - 1,
@@ -31,6 +36,7 @@ public struct Tool {
                         compelete?(target)
                     }
                 }
+                
             }
         }
         compelete?(target)
