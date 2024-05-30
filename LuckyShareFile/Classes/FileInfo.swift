@@ -52,6 +52,9 @@ public class FileInfo: SanboxFileModel, Codable {
     @UserDefaultsStorable(suitName: Config.groupId, key: "msg", defaultValue: nil)
     public static var msg: String?
     
+    public var sanboxDirectory: URL {
+        return FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: Config.groupId)!
+    }
     
     public var folderName: String {
         return "share_file"

@@ -11,6 +11,8 @@ import UniformTypeIdentifiers
 
 public struct Config {
     
+    
+    
     public static var groupId: String = "com.lucky.share"
     
     public static var scheme: String = "Lucky"
