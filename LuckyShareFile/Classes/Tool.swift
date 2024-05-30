@@ -20,20 +20,35 @@ public struct Tool {
                   let attachments = item.attachments as? [NSItemProvider]
             else { continue }
             for (j, provider) in attachments.enumerated() {
-                print(provider.registeredTypeIdentifiers)
+                
                 var identifier: String = "public.url"
+                var imgId: String = "public.image"
                 if #available(iOS 14.0, *) {
                     identifier = UTType.fileURL.identifier
+                    imgId = UTType.image.identifier
                 }
                 
-                provider.loadItem(forTypeIdentifier: identifier) { item, error in
-                    if let url = item as? URL {
-                        target.append(url)
+                if provider.hasItemConformingToTypeIdentifier(imgId) {
+                    provider.loadItem(forTypeIdentifier: imgId) { item, error in
+                        if let url = item as? URL {
+                            target.append(url)
+                        }
+                        if i == extensionContext.inputItems.count - 1,
+                           j == attachments.count - 1
+                        {
+                            compelete?(target)
+                        }
                     }
-                    if i == extensionContext.inputItems.count - 1,
-                       j == attachments.count - 1
-                    {
-                        compelete?(target)
+                }else{
+                    provider.loadItem(forTypeIdentifier: identifier) { item, error in
+                        if let url = item as? URL {
+                            target.append(url)
+                        }
+                        if i == extensionContext.inputItems.count - 1,
+                           j == attachments.count - 1
+                        {
+                            compelete?(target)
+                        }
                     }
                 }
                 
