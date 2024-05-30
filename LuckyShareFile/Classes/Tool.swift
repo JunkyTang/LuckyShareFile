@@ -20,7 +20,7 @@ public struct Tool {
                   let attachments = item.attachments as? [NSItemProvider]
             else { continue }
             for (j, provider) in attachments.enumerated() {
-                
+                print(provider.registeredTypeIdentifiers)
                 var identifier: String = "public.url"
                 if #available(iOS 14.0, *) {
                     identifier = UTType.fileURL.identifier
