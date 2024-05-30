@@ -46,10 +46,10 @@ public class FileInfo: SanboxFileModel, Codable {
         
     }
     
-    @UserDefaultsStorable(suitName: "com.lucky.share", key: "list", defaultValue: [])
+    @UserDefaultsStorable(suitName: Config.groupId, key: "list", defaultValue: [])
     public static var list: [FileInfo]
     
-    @UserDefaultsStorable(suitName: "com.lucky.share", key: "msg", defaultValue: nil)
+    @UserDefaultsStorable(suitName: Config.groupId, key: "msg", defaultValue: nil)
     public static var msg: String?
     
     
