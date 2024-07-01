@@ -32,13 +32,13 @@ public class FileInfo: SanboxFileModel, Codable {
             if ["pdf"].contains(ext) {
                 return .pdf
             }
-            if ["doc"].contains(ext) {
+            if ["doc", "docx"].contains(ext) {
                 return .word
             }
-            if ["ppt"].contains(ext) {
+            if ["ppt", "pptx"].contains(ext) {
                 return .ppt
             }
-            if ["excl"].contains(ext) {
+            if ["xls", "xlsx"].contains(ext) {
                 return .excel
             }
             return .unknown(urlExtension)
